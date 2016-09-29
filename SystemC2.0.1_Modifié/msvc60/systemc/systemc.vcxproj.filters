@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="systemc">
+      <UniqueIdentifier>{fedb4b07-3b2b-40c7-b013-39707b23c09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\communication">
+      <UniqueIdentifier>{6e62cceb-1749-41af-a0c3-53676fefb562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\datatypes">
+      <UniqueIdentifier>{edc942c6-ae48-414b-ac9d-7ab0597f3574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\datatypes\bit">
+      <UniqueIdentifier>{9dfcadb6-f0d7-46d3-b087-9841cb9de225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\datatypes\fx">
+      <UniqueIdentifier>{96bf5975-7428-4b32-939b-2540e24f8950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\datatypes\int">
+      <UniqueIdentifier>{b42ac224-12e1-4eb0-8a61-f9a67600995b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\kernel">
+      <UniqueIdentifier>{245f151e-bad4-46b8-b634-bf09b34504a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\tracing">
+      <UniqueIdentifier>{b1b723b7-9454-47b0-b0b1-672dbb9c1ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemc\utils">
+      <UniqueIdentifier>{2dc4cecc-9433-46b8-a470-c6124c524a40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\systemc\communication\sc_buffer.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_clock.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_clock_ports.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_communication_ids.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_event_finder.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_fifo.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_fifo_ifs.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_fifo_ports.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_interface.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_mutex.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_mutex_if.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_port.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_prim_channel.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_semaphore.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_semaphore_if.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_signal.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_signal_ifs.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_signal_ports.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_signal_resolved.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_signal_resolved_ports.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_signal_rv.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\communication\sc_signal_rv_ports.h">
+      <Filter>systemc\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_bit.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_bit_ids.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_bit_proxies.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_bv.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_bv_base.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_logic.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_lv.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_lv_base.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\bit\sc_proxy.h">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\fx.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_context.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fix.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fixed.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fx_ids.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fxcast_switch.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fxdefs.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fxnum.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fxnum_observer.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fxtype_params.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fxval.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_fxval_observer.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_ufix.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\sc_ufixed.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_ieee.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_mant.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_other_defs.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_params.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_pow10.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_rep.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_string.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\fx\scfx_utils.h">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_bigint.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_biguint.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_int.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_int_base.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_int_ids.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_length_param.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_nbdefs.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_nbexterns.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_nbutils.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_signed.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_uint.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_uint_base.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\datatypes\int\sc_unsigned.h">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_attribute.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_cmnhdr.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_constants.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_cor.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_cor_fiber.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_cor_qt.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_event.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_except.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_externs.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_kernel_ids.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_lambda.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_lambda_defs.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_lambda_exps.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_lambda_friends.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_macros.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_macros_int.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_module.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_module_name.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_module_registry.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_name_gen.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_object.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_object_manager.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_process.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_process_b.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_process_int.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_runnable.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_sensitive.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_simcontext.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_simcontext_int.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_time.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_ver.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_wait.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\kernel\sc_wait_cthread.h">
+      <Filter>systemc\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\tracing\sc_isdb_trace.h">
+      <Filter>systemc\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\tracing\sc_trace.h">
+      <Filter>systemc\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\tracing\sc_vcd_trace.h">
+      <Filter>systemc\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\tracing\sc_wif_trace.h">
+      <Filter>systemc\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_exception.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_hash.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_iostream.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_list.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_mempool.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_pq.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_report.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_report_handler.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_stop_here.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_string.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_utils_ids.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc\utils\sc_vector.h">
+      <Filter>systemc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\systemc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\systemc\communication\sc_clock.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_communication_ids.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_event_finder.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_interface.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_mutex.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_port.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_prim_channel.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_semaphore.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_signal.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_signal_ports.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_signal_resolved.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\communication\sc_signal_resolved_ports.cpp">
+      <Filter>systemc\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\bit\sc_bit.cpp">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\bit\sc_bit_ids.cpp">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\bit\sc_bv_base.cpp">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\bit\sc_logic.cpp">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\bit\sc_lv_base.cpp">
+      <Filter>systemc\datatypes\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fx_ids.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fxcast_switch.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fxdefs.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fxnum.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fxnum_observer.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fxtype_params.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fxval.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\sc_fxval_observer.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\scfx_mant.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\scfx_pow10.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\scfx_rep.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\fx\scfx_utils.cpp">
+      <Filter>systemc\datatypes\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_int32_mask.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_int64_io.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_int64_mask.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_int_base.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_int_ids.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_length_param.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_nbdefs.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_nbexterns.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_nbutils.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_signed.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_uint_base.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\datatypes\int\sc_unsigned.cpp">
+      <Filter>systemc\datatypes\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_attribute.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_cor_fiber.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_cor_qt.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_event.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_kernel_ids.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_lambda.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_main.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_module.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_module_name.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_module_registry.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_name_gen.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_object.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_object_manager.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_process_int.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_runnable.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_sensitive.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_simcontext.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_time.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_ver.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_wait.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\kernel\sc_wait_cthread.cpp">
+      <Filter>systemc\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\tracing\sc_isdb_trace.cpp">
+      <Filter>systemc\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\tracing\sc_trace.cpp">
+      <Filter>systemc\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\tracing\sc_vcd_trace.cpp">
+      <Filter>systemc\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\tracing\sc_wif_trace.cpp">
+      <Filter>systemc\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_exception.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_hash.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_list.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_mempool.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_pq.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_report.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_report_handler.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_stop_here.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_string.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_utils_ids.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemc\utils\sc_vector.cpp">
+      <Filter>systemc\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

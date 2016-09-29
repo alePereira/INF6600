@@ -1,0 +1,850 @@
+﻿La génération a démarré 2016-09-28 16:10:16.
+     1>Projet "\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\msvc60\systemc\systemc.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../src /Zi /nologo /W3 /WX- /O2 /Ob1 /D SC_INCLUDE_FX /D WIN32 /D NDEBUG /D _LIB /D _XKEYCHECK_H /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /errorReport:prompt ..\..\src\systemc\communication\sc_clock.cpp ..\..\src\systemc\communication\sc_communication_ids.cpp ..\..\src\systemc\communication\sc_event_finder.cpp ..\..\src\systemc\communication\sc_interface.cpp ..\..\src\systemc\communication\sc_mutex.cpp ..\..\src\systemc\communication\sc_port.cpp ..\..\src\systemc\communication\sc_prim_channel.cpp ..\..\src\systemc\communication\sc_semaphore.cpp ..\..\src\systemc\communication\sc_signal.cpp ..\..\src\systemc\communication\sc_signal_ports.cpp ..\..\src\systemc\communication\sc_signal_resolved.cpp ..\..\src\systemc\communication\sc_signal_resolved_ports.cpp ..\..\src\systemc\datatypes\bit\sc_bit.cpp ..\..\src\systemc\datatypes\bit\sc_bit_ids.cpp ..\..\src\systemc\datatypes\bit\sc_bv_base.cpp ..\..\src\systemc\datatypes\bit\sc_logic.cpp ..\..\src\systemc\datatypes\bit\sc_lv_base.cpp ..\..\src\systemc\datatypes\fx\scfx_mant.cpp ..\..\src\systemc\datatypes\fx\scfx_pow10.cpp ..\..\src\systemc\datatypes\fx\scfx_rep.cpp ..\..\src\systemc\datatypes\fx\scfx_utils.cpp ..\..\src\systemc\datatypes\fx\sc_fxcast_switch.cpp ..\..\src\systemc\datatypes\fx\sc_fxdefs.cpp ..\..\src\systemc\datatypes\fx\sc_fxnum.cpp ..\..\src\systemc\datatypes\fx\sc_fxnum_observer.cpp ..\..\src\systemc\datatypes\fx\sc_fxtype_params.cpp ..\..\src\systemc\datatypes\fx\sc_fxval.cpp ..\..\src\systemc\datatypes\fx\sc_fxval_observer.cpp ..\..\src\systemc\datatypes\fx\sc_fx_ids.cpp ..\..\src\systemc\datatypes\int\sc_int32_mask.cpp ..\..\src\systemc\datatypes\int\sc_int64_io.cpp ..\..\src\systemc\datatypes\int\sc_int64_mask.cpp ..\..\src\systemc\datatypes\int\sc_int_base.cpp ..\..\src\systemc\datatypes\int\sc_int_ids.cpp ..\..\src\systemc\datatypes\int\sc_length_param.cpp ..\..\src\systemc\datatypes\int\sc_nbdefs.cpp ..\..\src\systemc\datatypes\int\sc_nbexterns.cpp ..\..\src\systemc\datatypes\int\sc_nbutils.cpp ..\..\src\systemc\datatypes\int\sc_signed.cpp ..\..\src\systemc\datatypes\int\sc_uint_base.cpp ..\..\src\systemc\datatypes\int\sc_unsigned.cpp ..\..\src\systemc\kernel\sc_attribute.cpp ..\..\src\systemc\kernel\sc_cor_fiber.cpp ..\..\src\systemc\kernel\sc_cor_qt.cpp ..\..\src\systemc\kernel\sc_event.cpp ..\..\src\systemc\kernel\sc_kernel_ids.cpp ..\..\src\systemc\kernel\sc_lambda.cpp ..\..\src\systemc\kernel\sc_main.cpp ..\..\src\systemc\kernel\sc_module.cpp ..\..\src\systemc\kernel\sc_module_name.cpp ..\..\src\systemc\kernel\sc_module_registry.cpp ..\..\src\systemc\kernel\sc_name_gen.cpp ..\..\src\systemc\kernel\sc_object.cpp ..\..\src\systemc\kernel\sc_object_manager.cpp ..\..\src\systemc\kernel\sc_process_int.cpp ..\..\src\systemc\kernel\sc_runnable.cpp ..\..\src\systemc\kernel\sc_sensitive.cpp ..\..\src\systemc\kernel\sc_simcontext.cpp ..\..\src\systemc\kernel\sc_time.cpp ..\..\src\systemc\kernel\sc_ver.cpp ..\..\src\systemc\kernel\sc_wait.cpp ..\..\src\systemc\kernel\sc_wait_cthread.cpp ..\..\src\systemc\tracing\sc_isdb_trace.cpp ..\..\src\systemc\tracing\sc_trace.cpp ..\..\src\systemc\tracing\sc_vcd_trace.cpp ..\..\src\systemc\tracing\sc_wif_trace.cpp ..\..\src\systemc\utils\sc_exception.cpp ..\..\src\systemc\utils\sc_hash.cpp ..\..\src\systemc\utils\sc_list.cpp ..\..\src\systemc\utils\sc_mempool.cpp ..\..\src\systemc\utils\sc_pq.cpp ..\..\src\systemc\utils\sc_report.cpp ..\..\src\systemc\utils\sc_report_handler.cpp ..\..\src\systemc\utils\sc_stop_here.cpp ..\..\src\systemc\utils\sc_string.cpp ..\..\src\systemc\utils\sc_utils_ids.cpp ..\..\src\systemc\utils\sc_vector.cpp
+         sc_clock.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_clock.cpp(257): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_clock.cpp(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_communication_ids.cpp
+         sc_event_finder.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_event_finder.cpp(55): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_event_finder.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_interface.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_mutex.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_port.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_port.cpp(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_port.cpp(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_prim_channel.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_semaphore.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_semaphore.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_semaphore.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_signal.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_signal.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_signal_ports.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_signal_resolved.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_signal_resolved_ports.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_signal_resolved_ports.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\communication\sc_signal_resolved_ports.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_bit.cpp
+     1>..\..\src\systemc\datatypes\bit\sc_bit.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\bit\sc_bit.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_bit_ids.cpp
+         sc_bv_base.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\bit\sc_bv_base.cpp(302): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\bit\sc_bv_base.cpp(327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_logic.cpp
+     1>..\..\src\systemc\datatypes\bit\sc_logic.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\bit\sc_logic.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\bit\sc_logic.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_lv_base.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         scfx_mant.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\fx\scfx_mant.cpp(52): warning C4267: 'argument' : conversion de 'size_t' en 'unsigned long', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         scfx_pow10.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         scfx_rep.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\fx\scfx_rep.cpp(2727): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         Génération de code en cours...
+         Compilation en cours...
+         scfx_utils.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_fxcast_switch.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_fxdefs.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_fxnum.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_fxnum_observer.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_fxtype_params.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\fx\sc_fxtype_params.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\fx\sc_fxtype_params.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\fx\sc_fxtype_params.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_fxval.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_fxval_observer.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_fx_ids.cpp
+         sc_int32_mask.cpp
+         sc_int64_io.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_int64_io.cpp(93): warning C4244: 'initialisation' : conversion de '__int64' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\int\sc_int64_io.cpp(94): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_int64_mask.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_int_base.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\int\sc_int_base.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_int_base.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_int_base.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_int_base.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_int_base.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_int_base.cpp(307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_int_ids.cpp
+         sc_length_param.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_length_param.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_nbdefs.cpp
+         sc_nbexterns.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_nbutils.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_nbutils.cpp(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_nbutils.cpp(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_nbutils.cpp(225): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_nbutils.cpp(241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_nbutils.cpp(1481): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_signed.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\int\sc_signed.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\desktop\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbcommon.inc(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_uint_base.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\int\sc_uint_base.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_uint_base.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_uint_base.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_uint_base.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_uint_base.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\datatypes\int\sc_uint_base.cpp(307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         Génération de code en cours...
+         Compilation en cours...
+         sc_unsigned.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\datatypes\int\sc_unsigned.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\desktop\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbcommon.inc(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_attribute.cpp
+         sc_cor_fiber.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_cor_qt.cpp
+         sc_event.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_kernel_ids.cpp
+         sc_lambda.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_main.cpp
+         sc_module.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(377): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(379): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(389): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(393): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(396): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(411): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(423): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(427): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_module.cpp(430): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_module_name.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_module_registry.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_name_gen.cpp
+     1>..\..\src\systemc\kernel\sc_name_gen.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+         sc_object.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_object.cpp(146): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\kernel\sc_object.cpp(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\kernel\sc_object.cpp(158): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : voir la déclaration de 'strcat'
+     1>..\..\src\systemc\kernel\sc_object.cpp(197): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_object_manager.cpp
+         sc_process_int.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_runnable.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_sensitive.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_simcontext.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_simcontext.cpp(253): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : voir la déclaration de 'getenv'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_time.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_time.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_ver.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         sc_wait.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_wait_cthread.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\kernel\sc_wait_cthread.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_isdb_trace.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(115): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1314): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1315): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1317): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1318): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1319): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1320): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1321): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1323): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1325): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1328): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1329): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1331): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1357): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : voir la déclaration de 'getenv'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1412): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1735): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1754): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_isdb_trace.cpp(1818): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_trace.cpp
+     1>..\..\src\systemc\tracing\sc_trace.cpp(67): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'vsprintf'
+         sc_vcd_trace.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1554): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : voir la déclaration de 'fopen'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1580): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : voir la déclaration de 'localtime'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1588): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1589): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1590): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1591): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1592): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1593): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1594): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1595): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1596): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1597): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1598): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1599): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1600): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1601): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1602): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1603): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1604): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1605): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1608): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : voir la déclaration de 'getenv'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1636): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1691): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1895): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1913): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1934): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1937): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(1980): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(2005): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_vcd_trace.cpp(2089): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_wif_trace.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(130): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_string.h(185): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/fx/scfx_mant.h(163): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1432): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : voir la déclaration de 'fopen'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1458): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1459): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1460): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1462): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1463): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1464): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1465): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1466): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1467): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1469): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1470): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1471): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1472): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1473): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1474): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1475): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1482): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : voir la déclaration de 'localtime'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1492): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : voir la déclaration de 'getenv'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1520): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1571): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1779): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\tracing\sc_wif_trace.cpp(1788): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_exception.cpp
+         sc_hash.cpp
+     1>..\..\src\systemc\utils\sc_hash.cpp(638): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : voir la déclaration de 'strdup'
+         sc_list.cpp
+         sc_mempool.cpp
+     1>..\..\src\systemc\utils\sc_mempool.cpp(229): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : voir la déclaration de 'getenv'
+         sc_pq.cpp
+         sc_report.cpp
+     1>..\..\src\systemc\utils\sc_report.cpp(56): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : voir la déclaration de 'strdup'
+         sc_report_handler.cpp
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/datatypes/int/sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(70) : lors de la compilation de la fonction membre 'int sc_q<sc_method_handle>::size(void) const' de la classe modèle
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(206) : voir la référence à l'instanciation de la fonction modèle 'int sc_q<sc_method_handle>::size(void) const' en cours de compilation
+                 \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\src\systemc/kernel/sc_runnable.h(124) : voir la référence à l'instanciation de la classe modèle 'sc_q<sc_method_handle>' en cours de compilation
+         sc_stop_here.cpp
+         sc_string.cpp
+     1>..\..\src\systemc\utils\sc_string.cpp(119): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\utils\sc_string.cpp(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(152): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : voir la déclaration de 'strncpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(166): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(174): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\utils\sc_string.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(228): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\utils\sc_string.cpp(235): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\utils\sc_string.cpp(236): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(237): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(245): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(254): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\utils\sc_string.cpp(256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(257): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(266): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(267): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(300): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\src\systemc\utils\sc_string.cpp(305): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(306): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(310): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(322): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : voir la déclaration de 'strcpy'
+     1>..\..\src\systemc\utils\sc_string.cpp(369): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : voir la déclaration de 'sprintf'
+     1>..\..\src\systemc\utils\sc_string.cpp(429): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : voir la déclaration de '_vsnprintf'
+     1>..\..\src\systemc\utils\sc_string.cpp(443): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : voir la déclaration de '_vsnprintf'
+         sc_utils_ids.cpp
+         sc_vector.cpp
+         Génération de code en cours...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\msvc60\systemc\x64\Release\systemc.lib) does not match the Library's OutputFile property value (\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\msvc60\systemc\Release\systemc.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:".\Release\systemc.lib" /NOLOGO /MACHINE:X64 .\Release/sc_clock.obj
+         .\Release/sc_communication_ids.obj
+         .\Release/sc_event_finder.obj
+         .\Release/sc_interface.obj
+         .\Release/sc_mutex.obj
+         .\Release/sc_port.obj
+         .\Release/sc_prim_channel.obj
+         .\Release/sc_semaphore.obj
+         .\Release/sc_signal.obj
+         .\Release/sc_signal_ports.obj
+         .\Release/sc_signal_resolved.obj
+         .\Release/sc_signal_resolved_ports.obj
+         .\Release/sc_bit.obj
+         .\Release/sc_bit_ids.obj
+         .\Release/sc_bv_base.obj
+         .\Release/sc_logic.obj
+         .\Release/sc_lv_base.obj
+         .\Release/scfx_mant.obj
+         .\Release/scfx_pow10.obj
+         .\Release/scfx_rep.obj
+         .\Release/scfx_utils.obj
+         .\Release/sc_fxcast_switch.obj
+         .\Release/sc_fxdefs.obj
+         .\Release/sc_fxnum.obj
+         .\Release/sc_fxnum_observer.obj
+         .\Release/sc_fxtype_params.obj
+         .\Release/sc_fxval.obj
+         .\Release/sc_fxval_observer.obj
+         .\Release/sc_fx_ids.obj
+         .\Release/sc_int32_mask.obj
+         .\Release/sc_int64_io.obj
+         .\Release/sc_int64_mask.obj
+         .\Release/sc_int_base.obj
+         .\Release/sc_int_ids.obj
+         .\Release/sc_length_param.obj
+         .\Release/sc_nbdefs.obj
+         .\Release/sc_nbexterns.obj
+         .\Release/sc_nbutils.obj
+         .\Release/sc_signed.obj
+         .\Release/sc_uint_base.obj
+         .\Release/sc_unsigned.obj
+         .\Release/sc_attribute.obj
+         .\Release/sc_cor_fiber.obj
+         .\Release/sc_cor_qt.obj
+         .\Release/sc_event.obj
+         .\Release/sc_kernel_ids.obj
+         .\Release/sc_lambda.obj
+         .\Release/sc_main.obj
+         .\Release/sc_module.obj
+         .\Release/sc_module_name.obj
+         .\Release/sc_module_registry.obj
+         .\Release/sc_name_gen.obj
+         .\Release/sc_object.obj
+         .\Release/sc_object_manager.obj
+         .\Release/sc_process_int.obj
+         .\Release/sc_runnable.obj
+         .\Release/sc_sensitive.obj
+         .\Release/sc_simcontext.obj
+         .\Release/sc_time.obj
+         .\Release/sc_ver.obj
+         .\Release/sc_wait.obj
+         .\Release/sc_wait_cthread.obj
+         .\Release/sc_isdb_trace.obj
+         .\Release/sc_trace.obj
+         .\Release/sc_vcd_trace.obj
+         .\Release/sc_wif_trace.obj
+         .\Release/sc_exception.obj
+         .\Release/sc_hash.obj
+         .\Release/sc_list.obj
+         .\Release/sc_mempool.obj
+         .\Release/sc_pq.obj
+         .\Release/sc_report.obj
+         .\Release/sc_report_handler.obj
+         .\Release/sc_stop_here.obj
+         .\Release/sc_string.obj
+         .\Release/sc_utils_ids.obj
+         .\Release/sc_vector.obj
+         systemc.vcxproj -> \\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\msvc60\systemc\x64\Release\systemc.lib
+     1>Génération du projet "\\ens06.labos.polymtl.ca\profiles\raaya\profiles\Desktop\SystemC2.0.1_Modifié\msvc60\systemc\systemc.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:01:56.63
