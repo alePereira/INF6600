@@ -1,0 +1,618 @@
+﻿La génération a démarré 2013-02-20 14:58:13.
+     1>Projet "C:\Temp\SystemC2.0.1_Modifié\msvc60\systemc\systemc.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de ".\Debug\systemc.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../src /ZI /nologo /W3 /WX- /Od /Oy- /D SC_INCLUDE_FX /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\systemc\communication\sc_clock.cpp ..\..\src\systemc\communication\sc_communication_ids.cpp ..\..\src\systemc\communication\sc_event_finder.cpp ..\..\src\systemc\communication\sc_interface.cpp ..\..\src\systemc\communication\sc_mutex.cpp ..\..\src\systemc\communication\sc_port.cpp ..\..\src\systemc\communication\sc_prim_channel.cpp ..\..\src\systemc\communication\sc_semaphore.cpp ..\..\src\systemc\communication\sc_signal.cpp ..\..\src\systemc\communication\sc_signal_ports.cpp ..\..\src\systemc\communication\sc_signal_resolved.cpp ..\..\src\systemc\communication\sc_signal_resolved_ports.cpp ..\..\src\systemc\datatypes\bit\sc_bit.cpp ..\..\src\systemc\datatypes\bit\sc_bit_ids.cpp ..\..\src\systemc\datatypes\bit\sc_bv_base.cpp ..\..\src\systemc\datatypes\bit\sc_logic.cpp ..\..\src\systemc\datatypes\bit\sc_lv_base.cpp ..\..\src\systemc\datatypes\fx\sc_fx_ids.cpp ..\..\src\systemc\datatypes\fx\sc_fxcast_switch.cpp ..\..\src\systemc\datatypes\fx\sc_fxdefs.cpp ..\..\src\systemc\datatypes\fx\sc_fxnum.cpp ..\..\src\systemc\datatypes\fx\sc_fxnum_observer.cpp ..\..\src\systemc\datatypes\fx\sc_fxtype_params.cpp ..\..\src\systemc\datatypes\fx\sc_fxval.cpp ..\..\src\systemc\datatypes\fx\sc_fxval_observer.cpp ..\..\src\systemc\datatypes\fx\scfx_mant.cpp ..\..\src\systemc\datatypes\fx\scfx_pow10.cpp ..\..\src\systemc\datatypes\fx\scfx_rep.cpp ..\..\src\systemc\datatypes\fx\scfx_utils.cpp ..\..\src\systemc\datatypes\int\sc_int32_mask.cpp ..\..\src\systemc\datatypes\int\sc_int64_io.cpp ..\..\src\systemc\datatypes\int\sc_int64_mask.cpp ..\..\src\systemc\datatypes\int\sc_int_base.cpp ..\..\src\systemc\datatypes\int\sc_int_ids.cpp ..\..\src\systemc\datatypes\int\sc_length_param.cpp ..\..\src\systemc\datatypes\int\sc_nbdefs.cpp ..\..\src\systemc\datatypes\int\sc_nbexterns.cpp ..\..\src\systemc\datatypes\int\sc_nbutils.cpp ..\..\src\systemc\datatypes\int\sc_signed.cpp ..\..\src\systemc\datatypes\int\sc_uint_base.cpp ..\..\src\systemc\datatypes\int\sc_unsigned.cpp ..\..\src\systemc\kernel\sc_attribute.cpp ..\..\src\systemc\kernel\sc_cor_fiber.cpp ..\..\src\systemc\kernel\sc_cor_qt.cpp ..\..\src\systemc\kernel\sc_event.cpp ..\..\src\systemc\kernel\sc_kernel_ids.cpp ..\..\src\systemc\kernel\sc_lambda.cpp ..\..\src\systemc\kernel\sc_main.cpp ..\..\src\systemc\kernel\sc_module.cpp ..\..\src\systemc\kernel\sc_module_name.cpp ..\..\src\systemc\kernel\sc_module_registry.cpp ..\..\src\systemc\kernel\sc_name_gen.cpp ..\..\src\systemc\kernel\sc_object.cpp ..\..\src\systemc\kernel\sc_object_manager.cpp ..\..\src\systemc\kernel\sc_process_int.cpp ..\..\src\systemc\kernel\sc_runnable.cpp ..\..\src\systemc\kernel\sc_sensitive.cpp ..\..\src\systemc\kernel\sc_simcontext.cpp ..\..\src\systemc\kernel\sc_time.cpp ..\..\src\systemc\kernel\sc_ver.cpp ..\..\src\systemc\kernel\sc_wait.cpp ..\..\src\systemc\kernel\sc_wait_cthread.cpp ..\..\src\systemc\tracing\sc_isdb_trace.cpp ..\..\src\systemc\tracing\sc_trace.cpp ..\..\src\systemc\tracing\sc_vcd_trace.cpp ..\..\src\systemc\tracing\sc_wif_trace.cpp ..\..\src\systemc\utils\sc_exception.cpp ..\..\src\systemc\utils\sc_hash.cpp ..\..\src\systemc\utils\sc_list.cpp ..\..\src\systemc\utils\sc_mempool.cpp ..\..\src\systemc\utils\sc_pq.cpp ..\..\src\systemc\utils\sc_report.cpp ..\..\src\systemc\utils\sc_report_handler.cpp ..\..\src\systemc\utils\sc_stop_here.cpp ..\..\src\systemc\utils\sc_string.cpp ..\..\src\systemc\utils\sc_utils_ids.cpp ..\..\src\systemc\utils\sc_vector.cpp
+         sc_clock.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_clock.cpp(257): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_clock.cpp(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_communication_ids.cpp
+         sc_event_finder.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_event_finder.cpp(55): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_event_finder.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_interface.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_mutex.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_port.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_port.cpp(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_port.cpp(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_prim_channel.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_semaphore.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_semaphore.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_semaphore.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_signal.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_signal.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_signal_ports.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_signal_resolved.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_signal_resolved_ports.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_signal_resolved_ports.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\communication\sc_signal_resolved_ports.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_bit.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\bit\sc_bit.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\bit\sc_bit.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_bit_ids.cpp
+         sc_bv_base.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\bit\sc_bv_base.cpp(327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_logic.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\bit\sc_logic.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\bit\sc_logic.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\bit\sc_logic.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_lv_base.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_fx_ids.cpp
+         sc_fxcast_switch.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_fxdefs.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         Génération de code en cours...
+         Compilation en cours...
+         sc_fxnum.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_fxnum_observer.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_fxtype_params.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\fx\sc_fxtype_params.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\fx\sc_fxtype_params.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\fx\sc_fxtype_params.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_fxval.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_fxval_observer.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         scfx_mant.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         scfx_pow10.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         scfx_rep.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\fx\scfx_rep.cpp(2727): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         scfx_utils.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_int32_mask.cpp
+         sc_int64_io.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_int64_io.cpp(94): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'int', perte possible de données
+         sc_int64_mask.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_int_base.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_int_base.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_int_base.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_int_base.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_int_base.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_int_base.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_int_base.cpp(307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_int_ids.cpp
+         sc_length_param.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_length_param.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_nbdefs.cpp
+         sc_nbexterns.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_nbutils.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.cpp(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.cpp(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.cpp(225): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.cpp(241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.cpp(1481): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_signed.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_signed.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbcommon.inc(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_uint_base.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_uint_base.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_uint_base.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_uint_base.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_uint_base.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_uint_base.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_uint_base.cpp(307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         Génération de code en cours...
+         Compilation en cours...
+         sc_unsigned.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_unsigned.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbcommon.inc(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_attribute.cpp
+         sc_cor_fiber.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_cor_qt.cpp
+         sc_event.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_kernel_ids.cpp
+         sc_lambda.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_main.cpp
+         sc_module.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(377): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(379): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(389): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(393): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(396): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(411): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(423): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(427): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_module.cpp(430): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_module_name.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_module_registry.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_name_gen.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_name_gen.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_object.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_object.cpp(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_object.cpp(158): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : voir la déclaration de 'strcat'
+         sc_object_manager.cpp
+         sc_process_int.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_runnable.cpp
+         sc_sensitive.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_simcontext.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_simcontext.cpp(253): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : voir la déclaration de 'getenv'
+         sc_time.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_time.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_ver.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         sc_wait.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_wait_cthread.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\kernel\sc_wait_cthread.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_isdb_trace.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(115): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1314): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1315): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1317): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1318): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1319): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1320): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1321): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1323): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1325): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1328): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1329): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1331): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1357): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : voir la déclaration de 'getenv'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1412): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1735): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1754): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_isdb_trace.cpp(1818): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_trace.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_trace.cpp(67): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+         sc_vcd_trace.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1554): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : voir la déclaration de 'fopen'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1580): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : voir la déclaration de 'localtime'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1588): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1589): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1590): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1591): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1592): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1593): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1594): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1595): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1596): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1597): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1598): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1599): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1600): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1601): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1602): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1603): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1604): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1605): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1608): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : voir la déclaration de 'getenv'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1636): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1691): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1895): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1913): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1934): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1937): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(1980): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(2005): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_vcd_trace.cpp(2089): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_wif_trace.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1432): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : voir la déclaration de 'fopen'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1458): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1459): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1460): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1462): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1463): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1464): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1465): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1466): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1467): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1469): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1470): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1471): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1472): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1473): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1474): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1475): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1482): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : voir la déclaration de 'localtime'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1492): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : voir la déclaration de 'getenv'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1520): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1571): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1779): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\tracing\sc_wif_trace.cpp(1788): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_exception.cpp
+         sc_hash.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_hash.cpp(638): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : voir la déclaration de 'strdup'
+         sc_list.cpp
+         sc_mempool.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_mempool.cpp(229): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : voir la déclaration de 'getenv'
+         sc_pq.cpp
+         sc_report.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_report.cpp(56): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : voir la déclaration de 'strdup'
+         sc_report_handler.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\datatypes\int\sc_nbutils.h(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         sc_stop_here.cpp
+         sc_string.cpp
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(152): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : voir la déclaration de 'strncpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(166): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(236): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(237): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(245): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(257): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(266): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(267): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(305): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(306): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(310): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(322): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(369): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : voir la déclaration de 'sprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(429): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : voir la déclaration de '_vsnprintf'
+     1>c:\temp\systemc2.0.1_modifié\src\systemc\utils\sc_string.cpp(443): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : voir la déclaration de '_vsnprintf'
+         sc_utils_ids.cpp
+         sc_vector.cpp
+         Génération de code en cours...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\systemc.lib" /NOLOGO .\Debug/sc_clock.obj
+         .\Debug/sc_communication_ids.obj
+         .\Debug/sc_event_finder.obj
+         .\Debug/sc_interface.obj
+         .\Debug/sc_mutex.obj
+         .\Debug/sc_port.obj
+         .\Debug/sc_prim_channel.obj
+         .\Debug/sc_semaphore.obj
+         .\Debug/sc_signal.obj
+         .\Debug/sc_signal_ports.obj
+         .\Debug/sc_signal_resolved.obj
+         .\Debug/sc_signal_resolved_ports.obj
+         .\Debug/sc_bit.obj
+         .\Debug/sc_bit_ids.obj
+         .\Debug/sc_bv_base.obj
+         .\Debug/sc_logic.obj
+         .\Debug/sc_lv_base.obj
+         .\Debug/sc_fx_ids.obj
+         .\Debug/sc_fxcast_switch.obj
+         .\Debug/sc_fxdefs.obj
+         .\Debug/sc_fxnum.obj
+         .\Debug/sc_fxnum_observer.obj
+         .\Debug/sc_fxtype_params.obj
+         .\Debug/sc_fxval.obj
+         .\Debug/sc_fxval_observer.obj
+         .\Debug/scfx_mant.obj
+         .\Debug/scfx_pow10.obj
+         .\Debug/scfx_rep.obj
+         .\Debug/scfx_utils.obj
+         .\Debug/sc_int32_mask.obj
+         .\Debug/sc_int64_io.obj
+         .\Debug/sc_int64_mask.obj
+         .\Debug/sc_int_base.obj
+         .\Debug/sc_int_ids.obj
+         .\Debug/sc_length_param.obj
+         .\Debug/sc_nbdefs.obj
+         .\Debug/sc_nbexterns.obj
+         .\Debug/sc_nbutils.obj
+         .\Debug/sc_signed.obj
+         .\Debug/sc_uint_base.obj
+         .\Debug/sc_unsigned.obj
+         .\Debug/sc_attribute.obj
+         .\Debug/sc_cor_fiber.obj
+         .\Debug/sc_cor_qt.obj
+         .\Debug/sc_event.obj
+         .\Debug/sc_kernel_ids.obj
+         .\Debug/sc_lambda.obj
+         .\Debug/sc_main.obj
+         .\Debug/sc_module.obj
+         .\Debug/sc_module_name.obj
+         .\Debug/sc_module_registry.obj
+         .\Debug/sc_name_gen.obj
+         .\Debug/sc_object.obj
+         .\Debug/sc_object_manager.obj
+         .\Debug/sc_process_int.obj
+         .\Debug/sc_runnable.obj
+         .\Debug/sc_sensitive.obj
+         .\Debug/sc_simcontext.obj
+         .\Debug/sc_time.obj
+         .\Debug/sc_ver.obj
+         .\Debug/sc_wait.obj
+         .\Debug/sc_wait_cthread.obj
+         .\Debug/sc_isdb_trace.obj
+         .\Debug/sc_trace.obj
+         .\Debug/sc_vcd_trace.obj
+         .\Debug/sc_wif_trace.obj
+         .\Debug/sc_exception.obj
+         .\Debug/sc_hash.obj
+         .\Debug/sc_list.obj
+         .\Debug/sc_mempool.obj
+         .\Debug/sc_pq.obj
+         .\Debug/sc_report.obj
+         .\Debug/sc_report_handler.obj
+         .\Debug/sc_stop_here.obj
+         .\Debug/sc_string.obj
+         .\Debug/sc_utils_ids.obj
+         .\Debug/sc_vector.obj
+         systemc.vcxproj -> C:\Temp\SystemC2.0.1_Modifié\msvc60\systemc\.\Debug\systemc.lib
+       FinalizeBuildStatus:
+         Suppression du fichier ".\Debug\systemc.unsuccessfulbuild".
+         Mise à jour de l'horodatage ".\Debug\systemc.lastbuildstate".
+     1>Génération du projet "C:\Temp\SystemC2.0.1_Modifié\msvc60\systemc\systemc.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:40.19
