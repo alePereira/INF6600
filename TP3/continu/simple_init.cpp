@@ -33,7 +33,7 @@ void stop(){
 }
 
 void alarm(char* message){
-	std::cout << "ALARM : " << message << std::endl;
+	std::cerr << "ALARM : " << message << std::endl;
 }
 
 void reset(int solReset, bool* sols){
@@ -155,7 +155,6 @@ double hypoglycemiae_handler(int segment, void* data){
 	}
 }
 
-
 //----------------------------PERIODIC TASKS--------------------------
 
 
@@ -171,6 +170,18 @@ double anticoag_injection(int segment, void* data) {
     ttAnalogOut(ANTICOAGULANT, 0);
     return FINISHED;
   }
+}
+
+double reset_handler(int segment, void* data){
+	TaskData *d = (TaskData*)data;
+	switch (segment){
+	case 1:
+		d->sols[0] = true;
+		d->sols[1] = true;
+		return d->exectime;
+	default:
+		return FINISHED;
+	}
 }
 
 //idle task
@@ -212,6 +223,8 @@ void init() {
   //perdiodic injection for anticoagulant
   ttCreatePeriodicTask("anticoag_injection", 30.0, 40.0, anticoag_injection, data);
   
+  //perdiodic reset
+  ttCreatePeriodicTask("reset_handler", 0, 5, reset_handler, data);
   
   //handlers init
   ttCreateHandler("glycemiae_handler", 2, glycemiae_handler, data);
