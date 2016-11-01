@@ -10,4 +10,4 @@ addpath([getenv('TTKERNEL') '/matlab'])
 
 
 %make_truetime    %pour la compilation de la librairie true time
-ttmex ctrl_init.cpp       %pour la compilation du code du fichier C++
+ttmex simple_init.cpp       %pour la compilation du code du fichier C++
