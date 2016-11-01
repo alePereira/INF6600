@@ -30,7 +30,7 @@ struct TaskData {
 void stop(){
 	//ttAbortSimulation();
 	std::cout << "stop simulation" << std::endl;
-	}
+}
 
 void alarm(char* message){
 	std::cout << "ALARM : " << message << std::endl;
@@ -225,15 +225,12 @@ void init() {
   
   ttCreateHandler("sol2_5_handler", 11, sol2_5_handler, data);
   ttAttachTriggerHandler(SOL2_5, "sol2_5_handler");
-  
-  
-  // ca bug ici !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
-  /*ttCreateHandler("sol1_1_handler", 3, sol1_1_handler, data);
-  ttAttachTriggerHandler(SOL1_5, "sol1_5_handler");
+    
+  ttCreateHandler("sol1_1_handler", 3, sol1_1_handler, data);
+  ttAttachTriggerHandler(SOL1_1, "sol1_1_handler");
   
   ttCreateHandler("sol2_1_handler", 4, sol2_1_handler, data);
-  ttAttachTriggerHandler(SOL1_5, "sol2_1_handler");*/
+  ttAttachTriggerHandler(SOL2_1, "sol2_1_handler");
 }
 
 // Kernel cleanup function
