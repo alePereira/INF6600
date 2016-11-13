@@ -24,6 +24,7 @@ struct TaskData {
   double exectime;
   bool currentSol;
   bool sols[2];
+  bool anticoag;
 };
 
 //---------------------------CONTROLLER "MODULES"---------------------
@@ -109,13 +110,13 @@ double sol2_1_handler(int segment, void* data){
 }
 
 //handler for antibiotic event
-double antibiotic_handler(int segment, void* data){
+double stop_antibiotic_handler(int segment, void* data){
 	TaskData *d = (TaskData*)data;
 	switch (segment){
 	case 1:
+		ttAnalogOut(ANTIBIOTIC,0);
 		return d->exectime;
 	default:
-		ttAnalogOut(ANTIBIOTIC,1);
 		return FINISHED;
 	}
 }
@@ -132,8 +133,10 @@ double glycemiae_handler(int segment, void* data){
 			ttAnalogOut(SOL1,1);
 		else
 			ttAnalogOut(SOL2,1);
+		if(d->anticoag){
+			ttAnalogOut(ANTICOAGULANT, 1);
+		}
 		ttAnalogOut(ANTIBIOTIC,0);
-		ttAnalogOut(ANTICOAGULANT,0);
 		ttAnalogOut(GLUCOSE,0);
 		return FINISHED;
 	}
@@ -164,10 +167,23 @@ double anticoag_injection(int segment, void* data) {
   switch (segment) {
   case 1:
 	ttAnalogOut(ANTICOAGULANT, 1);
+	d->anticoag = true;
 	std::cout << "injection anticoag" << std::endl;
+    return 120;
+  default:
+    d->anticoag = false;
+	ttAnalogOut(ANTICOAGULANT, 0);
+    return FINISHED;
+  }
+}
+
+double antibiotic_injection(int segment, void* data) {
+  TaskData *d = (TaskData*)data;  
+  switch (segment) {
+  case 1:
+	ttAnalogOut(ANTIBIOTIC, 1);
     return d->exectime;
   default:
-    ttAnalogOut(ANTICOAGULANT, 0);
     return FINISHED;
   }
 }
@@ -212,8 +228,8 @@ void init() {
   data->sols[0] = true;
   data->sols[1] = true;
   data->exectime = 0.1;
+  data->anticoag = false;
 
-  
   ttInitKernel(prioFP);
 
   //timer creation
@@ -221,7 +237,10 @@ void init() {
   ttCreatePeriodicTimer("timer", 0.5, "idle_handler"); 
   
   //perdiodic injection for anticoagulant
-  ttCreatePeriodicTask("anticoag_injection", 30.0, 40.0, anticoag_injection, data);
+  ttCreatePeriodicTask("anticoag_injection", 30.0, 24*60*60, anticoag_injection, data);
+  
+  //perdiodic injection for antibiotic
+  ttCreatePeriodicTask("antibiotic_injection", 150, 3600, antibiotic_injection, data);
   
   //perdiodic reset
   ttCreatePeriodicTask("reset_handler", 0, 5, reset_handler, data);
@@ -232,6 +251,9 @@ void init() {
   
   ttCreateHandler("hypoglycemiae_handler", 1, hypoglycemiae_handler, data);
   ttAttachTriggerHandler(HYPOGLYCEMIAE, "hypoglycemiae_handler");
+  
+  ttCreateHandler("stop_antibiotic_handler", 5, stop_antibiotic_handler, data);
+  ttAttachTriggerHandler(OUT_ANTIBIOTIC, "stop_antibiotic_handler");
   
   ttCreateHandler("sol1_5_handler", 10, sol1_5_handler, data);
   ttAttachTriggerHandler(SOL1_5, "sol1_5_handler");
