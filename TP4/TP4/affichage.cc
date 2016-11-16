@@ -14,7 +14,7 @@ void *affichage(void *args)
 	{
 		int ret = read(fd_affichage,buf,FIFO_MAX_SIZE);
 		if(ret>=0)
-			cout << buf  <<" " << ret<< endl;
+			cout << ret << " - " << buf << endl;
 	}
 		
 	return 0;

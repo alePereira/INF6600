@@ -17,7 +17,7 @@ void* capteur_glucose(void* args){
 	fd = open(FIFO_STRING,O_WRONLY);
 	if(fd < 0)
 		Utils::debug("Open failed",TAG);
-	
+	glucose = TOTAL;
 	while(1){
 		double local_glucose;
 		pthread_mutex_lock(&mutex_glucose);
@@ -25,10 +25,10 @@ void* capteur_glucose(void* args){
 		pthread_mutex_unlock(&mutex_glucose);
 		
 		if(local_glucose < SEUIL1){
-			write(fd,"GLUCOSE A 1%",50);
+			write(fd,"GLUCOSE A 1%",sizeof("GLUCOSE A 1%"));
 		}else if(local_glucose < SEUIL5){
-			write(fd,"GLUCOSE A 5%",50);
+			write(fd,"GLUCOSE A 5%\n",sizeof("GLUCOSE A 5%\n"));
 		}
-		
+		sleep(1);
 	}
 }

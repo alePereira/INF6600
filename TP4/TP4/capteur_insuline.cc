@@ -18,7 +18,7 @@ void* capteur_insuline(void* args){
 	fd = open(FIFO_STRING,O_WRONLY);
 	if(fd < 0)
 		Utils::debug("Open failed",TAG);
-	
+	insuline = TOTAL;
 	while(1){
 		double local_insuline;
 		
@@ -27,10 +27,10 @@ void* capteur_insuline(void* args){
 		pthread_mutex_unlock(&mutex_insuline);
 		
 		if(local_insuline < SEUIL1){
-			write(fd,"INSULINE A 1%",50);
+			write(fd,"INSULINE A 1%",sizeof("INSULINE A 1%"));
 		}else if(local_insuline < SEUIL5){
-			write(fd,"INSULINE A 5%",50);
+			write(fd,"INSULINE A 5%\n",sizeof("INSULINE A 5%\n"));
 		}
-		
+		sleep(1);
 	}
 }

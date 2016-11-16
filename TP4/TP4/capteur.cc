@@ -26,10 +26,12 @@ void* capteur(void* args){
 			write(fd,"Hypoglycémie",50);
 			pthread_mutex_lock(&mutex_mode_glucose);
 			mode_glucose= MODE_HYPOGLYCEMIE;
+			std::cout << TAG << " hypo " <<mode_glucose <<std::endl;
 			pthread_mutex_unlock(&mutex_mode_glucose);
 		}else if(local_glycemie < NORMAL_GLYCEMIE){
 			pthread_mutex_lock(&mutex_mode_glucose);
 			mode_glucose= MODE_GLUCOSE;
+			std::cout << TAG << " Normal glycemie " <<mode_glucose <<std::endl;
 			pthread_mutex_unlock(&mutex_mode_glucose);
 		}else{
 			pthread_mutex_lock(&mutex_mode_glucose);
@@ -46,7 +48,7 @@ void* capteur(void* args){
 			mode_insuline= MODE_INSULINE_ON;
 			pthread_mutex_unlock(&mutex_mode_insuline);
 		}
-		
-		sleep(10);
+		std::cout << TAG << " " <<mode_glucose <<std::endl;
+		sleep(1);
 	}
 }

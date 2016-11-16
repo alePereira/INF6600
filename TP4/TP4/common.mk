@@ -62,5 +62,6 @@ BUILDNAME_SAR:= $(patsubst %$(IMAGE_SUFF_$(BUILD_TYPE)),%S.a,$(BUILDNAME))
 POST_BUILD:=$($(call EXPRESSION,POST_BUILD))
 #QNX internal end
 include $(MKFILES_ROOT)/qtargets.mk
+
 OPTIMIZE_TYPE_g=none
 OPTIMIZE_TYPE=$(OPTIMIZE_TYPE_$(filter g, $(VARIANTS)))

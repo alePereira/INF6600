@@ -6,8 +6,12 @@
 #include <pthread.h>
 
 
+//Semaphore
+extern sem_t sem_glucose;
+extern sem_t sem_insuline;
+
 //FIFO
-#define FIFO_MAX_SIZE 128
+#define FIFO_MAX_SIZE 1024
 #define FIFO_STRING "/tmp/toto"
 extern int fd_affichage;
 extern int fd_glucose_capteur;
@@ -27,7 +31,7 @@ extern pthread_mutex_t mutex_insuline;
 // File de messages
 #define MQ_GLUCOSE "glucose"
 #define MQ_INSULINE "insuline"
-#define MQ_MAX_SIZE 1024
+#define MQ_MAX_SIZE sizeof(double)
 extern mqd_t mq_glucose;
 extern mqd_t mq_insuline;
 
