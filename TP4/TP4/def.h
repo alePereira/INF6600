@@ -4,7 +4,16 @@
 #include <mqueue.h>
 #include <semaphore.h>
 #include <pthread.h>
+#include <errno.h>
+#include <stdlib.h>
+#include <iostream>
 
+#define TOTAL 30
+#define DEBUG false
+
+extern void cleanup();
+
+#define CHECK(val,str) if(val){std::cout << str << " " << errno << std::endl;cleanup();exit(1);}
 
 //Semaphore
 extern sem_t sem_glucose;
@@ -17,6 +26,7 @@ extern int fd_affichage;
 extern int fd_glucose_capteur;
 extern int fd_insuline_capteur;
 extern int fd_glycemie_capteur;
+extern int fd_patient;
 
 //Variables globales
 extern double glycemie;

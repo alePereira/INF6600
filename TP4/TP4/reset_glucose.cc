@@ -16,17 +16,17 @@ void reset_glucose_handler(int sig){
 }
 
 void* reset_glucose(void* args){
-	sem_init(&sem_glucose,0,0);
+	CHECK(sem_init(&sem_glucose,0,0)<0, "Sem init reset glucose failed")
 	struct sigaction sa;
 	memset(&sa,0,sizeof(sa));
-	sigemptyset(&sa.sa_mask);
+	CHECK(sigemptyset(&sa.sa_mask),"Sig empty set failed (reset glucose 1)")
 	sa.sa_flags=0;
 	sa.sa_handler = reset_glucose_handler;
-	sigaction(SIGUSR1,&sa,NULL);
+	CHECK(sigaction(SIGUSR1,&sa,NULL),"Sigaction SIGUSR1 failed")
 	sigset_t set;
-	sigemptyset(&set);
-	sigaddset(&set,SIGUSR1);
-	pthread_sigmask(SIG_UNBLOCK,&set,NULL);
+	CHECK(sigemptyset(&set),"Sig empty set failed (reset glucose 2)")
+	CHECK(sigaddset(&set,SIGUSR1), "Sig add set SIGUSR1 failed")
+	CHECK(pthread_sigmask(SIG_UNBLOCK,&set,NULL),"Pthread sigmask failed (unblock SIGUSR1)")
 	
 	while(true){
 		int ret = sem_wait(&sem_glucose);
@@ -35,7 +35,7 @@ void* reset_glucose(void* args){
 			
 		Utils::debug("Sem end",TAG);		
 		pthread_mutex_lock(&mutex_glucose);
-		glucose = 100; //TODO change
+		glucose = TOTAL;
 		pthread_mutex_unlock(&mutex_glucose);
 	}
 }

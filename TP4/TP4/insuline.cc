@@ -10,19 +10,25 @@ int mode_insuline;
 void* insuline_handler(void* args){
 		
 	int inject = MODE_INSULINE_ON;
+	
 	while(1){
-		double insuline;
+		double local_insuline;
 		if (inject)
-			insuline = 1 ;
+			local_insuline = 1 ;
 		else
-			insuline= 0;
+			local_insuline= 0;
+			
 		Utils::debug("Sending insuline",TAG);
+		pthread_mutex_lock(&mutex_insuline);
+		local_insuline = local_insuline<insuline ? local_insuline : insuline;
+		insuline-=local_insuline;
+		pthread_mutex_unlock(&mutex_insuline);
 		
-		int ret = mq_send(mq_insuline,(char*)&insuline,sizeof(double),NULL);
-		//Utils::debug("Sent insuline " + ret + " " + errno,TAG);
+		mq_send(mq_insuline,(char*)&local_insuline,sizeof(double),NULL);
+
 		pthread_mutex_lock(&mutex_mode_insuline);
 		inject = mode_insuline;
 		pthread_mutex_unlock(&mutex_mode_insuline);
-		sleep(10);
+		sleep(1);
 	}
 }

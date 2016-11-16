@@ -16,25 +16,26 @@ void reset_insuline_handler(int sig){
 }
 
 void* reset_insuline(void* args){
-	sem_init(&sem_insuline,0,0);
+	CHECK(sem_init(&sem_insuline,0,0), "Sem init reset insuline failed")
 	struct sigaction sa;
 	memset(&sa,0,sizeof(sa));
-	sigemptyset(&sa.sa_mask);
+	CHECK(sigemptyset(&sa.sa_mask),"Sig empty set failed (reset insuline 1)")
 	sa.sa_flags=0;
 	sa.sa_handler = reset_insuline_handler;
-	sigaction(SIGUSR2,&sa,NULL);
+	CHECK(sigaction(SIGUSR2,&sa,NULL),"Sigaction SIGUSR2 failed")
 	sigset_t set;
-	sigemptyset(&set);
-	sigaddset(&set,SIGUSR2);
-	pthread_sigmask(SIG_UNBLOCK,&set,NULL);
+	CHECK(sigemptyset(&set),"Sig empty set failed (reset insuline 2)")
+	CHECK(sigaddset(&set,SIGUSR2), "Sig add set SIGUSR2 failed")
+	CHECK(pthread_sigmask(SIG_UNBLOCK,&set,NULL),"Pthread sigmask failed (unblock SIGUSR2)")
 	
 	while(true){
 		int ret = sem_wait(&sem_insuline);
 		if(ret)
 			sem_wait(&sem_insuline);
+			
 		Utils::debug("Sem end",TAG);		
 		pthread_mutex_lock(&mutex_insuline);
-		insuline = 100; //TODO change
+		insuline = TOTAL;
 		pthread_mutex_unlock(&mutex_insuline);
 	}
 }

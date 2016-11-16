@@ -7,7 +7,9 @@
 class Utils{
 	public:
 		static void debug(std::string s, std::string tag){
-			std::cout << tag << " " << s << std::endl;
+			bool deb = false;
+			if(deb)
+				std::cout << tag << " " << s << std::endl;
 		}
 };
 
